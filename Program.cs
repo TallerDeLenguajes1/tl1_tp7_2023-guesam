@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using EspacioCalculadora;
 
-EspacioCalculadora cal = new Calculadora();
+Calculadora cal = new Calculadora();
 cal.Suma(15);
-console. WriteLine(cal.Resultado);
+cal.Resta(3);
+cal.Multiplicar(3);
+cal.Dividir(4);
+Console.WriteLine(cal.Resultado);
+cal.Limpiar();
+Console.WriteLine(cal.Resultado);
